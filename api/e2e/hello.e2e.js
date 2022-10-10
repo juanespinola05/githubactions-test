@@ -15,11 +15,11 @@ describe('Test for hello endpoint', () => {
   });
 
   describe('test for [GET] /', () => {
-    test('should return "Hello World!"', () => request(app)
+    test('should return "Hello World!!"', () => request(app)
       .get('/')
       .expect(200)
       .then((response) => {
-        expect(response.text).toEqual('Hello World!');
+        expect(response.text).toEqual('Hello World!!');
       }));
   });
 });
